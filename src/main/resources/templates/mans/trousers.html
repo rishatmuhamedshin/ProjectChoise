@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../../static/img/shoes-clothes-icon.ico" th:href="@{/img/shoes-clothes-icon.ico}"
+          type="img/x-icon">
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="../../static/css/fontello.css" th:href="@{/css/fontello.css}">
+    <link rel="stylesheet" href="../../static/css/pages/headerFooter.css" th:href="@{/css/pages/headerFooter.css}">
+    <link rel="stylesheet" href="../../static/css/clothes/mans/outwear.css" th:href="@{/css/clothes/mans/outwear.css}">
+    <title>Брюки</title>
+</head>
+<body>
+<header>
+
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+        <div class="container-fluid navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand " aria-current="page" href="/home">CHOISE</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMans" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Мужчинам
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMans">
+                            <li><a class="dropdown-item" href="/mans-outwear">Верхняя одежда</a></li>
+                            <li><a class="dropdown-item" href="/mans-trouser">Брюки</a></li>
+                            <li><a class="dropdown-item" href="/mans-cardigan">Джемперы</a></li>
+                            <li><a class="dropdown-item" href="/mans-jacket">Куртки</a></li>
+                            <li><a class="dropdown-item" href="/mans-shoes">Обувь</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownWomans" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Девушкам
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownWomans">
+                            <li><a class="dropdown-item" href="#">Верхняя одежда</a></li>
+                            <li><a class="dropdown-item" href="#">Брюки</a></li>
+                            <li><a class="dropdown-item" href="#">Джемперы</a></li>
+                            <li><a class="dropdown-item" href="#">Куртки</a></li>
+                            <li><a class="dropdown-item" href="#">Обувь</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownChild" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Детям
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownChild">
+                            <li><a class="dropdown-item" href="#">Верхняя одежда</a></li>
+                            <li><a class="dropdown-item" href="#">Брюки</a></li>
+                            <li><a class="dropdown-item" href="#">Джемперы</a></li>
+                            <li><a class="dropdown-item" href="#">Куртки</a></li>
+                            <li><a class="dropdown-item" href="#">Обувь</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <span class="navbar-nav">
+                        <a class="nav-link navR text-uppercase" href="../delivery" tabindex="-1"
+                           aria-disabled="false">Доставка</a>
+                        <a class="nav-link navR text-uppercase" href="../bascket" tabindex="-1" aria-disabled="false">Корзина</a>
+                        <a class="nav-link navR text-uppercase" href="#" tabindex="-1" aria-disabled="false">Вход</a>
+                    </span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<section class="main-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mt-3 mb-2">
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <a href="#"><img src="../../static/img/mans/mans_outwear/1.png" th:src="@{/img/mans/mans_outwear/1.png}"></a>
+                    </div>
+                    <div class="product-details">
+                        <h4><a href="#">IPhone</a></h4>
+                        <p>Куртка 1</p>
+                        <div class="product-bottom-details d-flex justify-content-between">
+                            <div class="product-price">
+                                <small>$230.99</small> $99
+                            </div>
+                            <div class="product-links">
+                                <a href=""><i class="icon-heart"></i></a>
+                                <a href="">Добавить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt-3 mb-2">
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <a href="#"><img src="../../static/img/mans/mans_outwear/2.png" th:src="@{/img/mans/mans_outwear/2.png}"></a>
+                    </div>
+                    <div class="product-details">
+                        <h4><a href="#">IPhone</a></h4>
+                        <p>Куртака 2</p>
+                        <div class="product-bottom-details d-flex justify-content-between">
+                            <div class="product-price">
+                                <small>$230.99</small> $99
+                            </div>
+                            <div class="product-links">
+                                <a href=""><i class="icon-heart"></i></a>
+                                <a href="">Добавить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt-3 mb-2">
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <a href="#"><img src="../../static/img/mans/mans_outwear/3.png" th:src="@{/img/mans/mans_outwear/3.png}"></a>
+                    </div>
+                    <div class="product-details">
+                        <h4><a href="#">IPhone</a></h4>
+                        <p>Куртка 3</p>
+                        <div class="product-bottom-details d-flex justify-content-between">
+                            <div class="product-price">
+                                <small>$230.99</small> $99
+                            </div>
+                            <div class="product-links">
+                                <a href=""><i class="icon-heart"></i></a>
+                                <a href="">Добавить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt-3 mb-2">
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <a href="#"><img src="../../static/img/mans/mans_outwear/4.png" th:src="@{/img/mans/mans_outwear/4.png}"></a>
+                    </div>
+                    <div class="product-details">
+                        <h4><a href="#">IPhone</a></h4>
+                        <p>Куртка 4</p>
+                        <div class="product-bottom-details d-flex justify-content-between">
+                            <div class="product-price">
+                                <small>$230.99</small> $99
+                            </div>
+                            <div class="product-links">
+                                <a href=""><i class="icon-heart"></i></a>
+                                <a href="">Добавить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt-3 mb-2">
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <a href="#"><img src="../../static/img/mans/mans_outwear/5.png" th:src="@{/img/mans/mans_outwear/5.png}"></a>
+                    </div>
+                    <div class="product-details">
+                        <h4><a href="#">IPhone</a></h4>
+                        <p>Куртка 5</p>
+                        <div class="product-bottom-details d-flex justify-content-between">
+                            <div class="product-price">
+                                <small>$230.99</small> $99
+                            </div>
+                            <div class="product-links">
+                                <a href=""><i class="icon-heart"></i></a>
+                                <a href="">Добавить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt-3 mb-2">
+                <div class="product-card">
+                    <div class="product-thumb">
+                        <a href="#"><img src="../../static/img/mans/mans_outwear/6.png" th:src="@{/img/mans/mans_outwear/6.png}"></a>
+                    </div>
+                    <div class="product-details">
+                        <h4><a href="#">IPhone</a></h4>
+                        <p>Куртка 6</p>
+                        <div class="product-bottom-details d-flex justify-content-between">
+                            <div class="product-price">
+                                <small>$230.99</small> $99
+                            </div>
+                            <div class="product-links">
+                                <a href=""><i class="icon-heart"></i></a>
+                                <a href="">Добавить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="betweenSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center text-white text-uppercase">
+                <h2 class=" mt-4">Бесплатная доставка <b><i style="color: red">от 3000Р</i></b></h2>
+                <p>Сделайте заказ и получите подарок!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+</footer>
+<script src="../../static/js/bootstrap.bundle.min.js" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>

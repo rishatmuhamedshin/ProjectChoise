@@ -1,0 +1,42 @@
+:root {
+    --color1:#F9F6F1;
+    --color2:#212121;
+
+}
+/*Карусель*/
+.section1{
+    padding-bottom:4%;
+    background-color: var(--color1);
+}
+.carousel-inner img {
+    width: 400px;
+    height: 500px;
+}
+/*Между секциями*/
+
+.betweenSection{
+    height: 150px;
+    background-color: var(--color2);
+}
+.betweenSection i {
+    color: red;
+}
+
+
+
+
+
+
+
+
+.color1{
+    color: var(--color1);
+}
+.color2{
+    color: var(--color2);
+}.bg1{
+     background-color: var(--color1);
+ }
+.bg2{
+    background-color: var(--color2);
+}

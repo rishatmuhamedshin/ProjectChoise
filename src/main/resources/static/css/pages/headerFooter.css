@@ -1,0 +1,12 @@
+header{
+    background-color: var(--color1);
+}
+.navigation{
+    padding-left: 5% ;
+}
+.nav-item{
+    padding-left: 50px;
+}
+.navR{
+    margin-right:50px;
+}
